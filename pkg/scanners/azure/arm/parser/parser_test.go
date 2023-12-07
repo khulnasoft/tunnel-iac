@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure/resolver"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure/resolver"
 )
 
 func createMetadata(targetFS fs.FS, filename string, start, end int, ref string, parent *types.Metadata) types.Metadata {

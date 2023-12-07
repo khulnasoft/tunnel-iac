@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/test/testutil"
+	"github.com/khulnasoft/tunnel-iac/test/testutil"
 )
 
 func Test_BasicScan(t *testing.T) {

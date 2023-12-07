@@ -18,12 +18,12 @@ import (
 	"github.com/aquasecurity/defsec/pkg/types"
 	"golang.org/x/exp/slices"
 
-	"github.com/aquasecurity/trivy-iac/pkg/extrafs"
-	"github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/terraform/executor"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/terraform/parser"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/terraform/parser/resolvers"
+	"github.com/khulnasoft/tunnel-iac/pkg/extrafs"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/terraform/executor"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/terraform/parser"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/terraform/parser/resolvers"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

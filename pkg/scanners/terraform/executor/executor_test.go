@@ -8,9 +8,9 @@ import (
 	"github.com/aquasecurity/defsec/pkg/scan"
 	"github.com/aquasecurity/defsec/pkg/severity"
 	"github.com/aquasecurity/defsec/pkg/terraform"
-	"github.com/aquasecurity/trivy-iac/pkg/rules"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/terraform/parser"
-	"github.com/aquasecurity/trivy-iac/test/testutil"
+	"github.com/khulnasoft/tunnel-iac/pkg/rules"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/terraform/parser"
+	"github.com/khulnasoft/tunnel-iac/test/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

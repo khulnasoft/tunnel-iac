@@ -1,4 +1,4 @@
-module github.com/aquasecurity/trivy-iac
+module github.com/khulnasoft/tunnel-iac
 
 go 1.20
 
@@ -7,13 +7,13 @@ require (
 	github.com/Masterminds/semver v1.5.0
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/aquasecurity/defsec v0.93.2-0.20231120220217-6818261529c8
-	github.com/aquasecurity/trivy-policies v0.6.1-0.20231120231532-f6f2330bf842
 	github.com/aws/smithy-go v1.14.2
 	github.com/bmatcuk/doublestar/v4 v4.6.0
 	github.com/google/uuid v1.3.1
 	github.com/hashicorp/go-getter v1.7.2
 	github.com/hashicorp/go-uuid v1.0.3
 	github.com/hashicorp/hcl/v2 v2.18.1
+	github.com/khulnasoft/tunnel-policies v0.0.1
 	github.com/liamg/iamgo v0.0.9
 	github.com/liamg/jfather v0.0.7
 	github.com/liamg/memoryfs v1.6.0

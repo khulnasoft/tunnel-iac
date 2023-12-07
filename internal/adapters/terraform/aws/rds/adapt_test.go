@@ -6,11 +6,11 @@ import (
 	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
 
 	"github.com/aquasecurity/defsec/pkg/providers/aws/rds"
-	"github.com/aquasecurity/trivy-iac/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft/tunnel-iac/internal/adapters/terraform/tftestutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy-iac/test/testutil"
+	"github.com/khulnasoft/tunnel-iac/test/testutil"
 )
 
 func Test_Adapt(t *testing.T) {

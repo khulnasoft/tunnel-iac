@@ -13,9 +13,9 @@ import (
 	"github.com/aquasecurity/defsec/pkg/state"
 	"github.com/aquasecurity/defsec/pkg/terraform"
 
-	adapter "github.com/aquasecurity/trivy-iac/internal/adapters/terraform"
-	"github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-iac/pkg/rules"
+	adapter "github.com/khulnasoft/tunnel-iac/internal/adapters/terraform"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego"
+	"github.com/khulnasoft/tunnel-iac/pkg/rules"
 )
 
 // Executor scans HCL blocks by running all registered rules against them

@@ -15,12 +15,12 @@ import (
 	"github.com/aquasecurity/defsec/pkg/types"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/internal/adapters/arm"
-	"github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-iac/pkg/rules"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure/arm/parser"
+	"github.com/khulnasoft/tunnel-iac/internal/adapters/arm"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego"
+	"github.com/khulnasoft/tunnel-iac/pkg/rules"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure/arm/parser"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

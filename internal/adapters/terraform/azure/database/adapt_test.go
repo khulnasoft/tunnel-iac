@@ -6,8 +6,8 @@ import (
 	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
 
 	"github.com/aquasecurity/defsec/pkg/providers/azure/database"
-	"github.com/aquasecurity/trivy-iac/internal/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/trivy-iac/test/testutil"
+	"github.com/khulnasoft/tunnel-iac/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft/tunnel-iac/test/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -15,11 +15,11 @@ import (
 	"github.com/liamg/memoryfs"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/pkg/detection"
-	"github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/helm/parser"
-	kparser "github.com/aquasecurity/trivy-iac/pkg/scanners/kubernetes/parser"
+	"github.com/khulnasoft/tunnel-iac/pkg/detection"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/helm/parser"
+	kparser "github.com/khulnasoft/tunnel-iac/pkg/scanners/kubernetes/parser"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

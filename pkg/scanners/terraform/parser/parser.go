@@ -18,7 +18,7 @@ import (
 	"github.com/hashicorp/hcl/v2/hclparse"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/aquasecurity/trivy-iac/pkg/extrafs"
+	"github.com/khulnasoft/tunnel-iac/pkg/extrafs"
 )
 
 type sourceFile struct {

@@ -14,7 +14,7 @@ import (
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/pkg/detection"
+	"github.com/khulnasoft/tunnel-iac/pkg/detection"
 )
 
 var _ options.ConfigurableParser = (*Parser)(nil)

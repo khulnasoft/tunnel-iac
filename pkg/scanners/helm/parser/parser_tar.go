@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/aquasecurity/trivy-iac/pkg/detection"
+	"github.com/khulnasoft/tunnel-iac/pkg/detection"
 	"github.com/liamg/memoryfs"
 )
 

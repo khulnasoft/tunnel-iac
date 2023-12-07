@@ -12,9 +12,9 @@ import (
 	"github.com/aquasecurity/defsec/pkg/types"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/pkg/rego"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/dockerfile/parser"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/dockerfile/parser"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

@@ -16,7 +16,7 @@ import (
 	"github.com/liamg/jfather"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy-iac/pkg/detection"
+	"github.com/khulnasoft/tunnel-iac/pkg/detection"
 )
 
 var _ options.ConfigurableParser = (*Parser)(nil)

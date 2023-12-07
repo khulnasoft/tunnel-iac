@@ -12,9 +12,9 @@ import (
 	"github.com/aquasecurity/defsec/pkg/types"
 
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure/arm/parser/armjson"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure/resolver"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure/arm/parser/armjson"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure/resolver"
 )
 
 type Parser struct {

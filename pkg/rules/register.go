@@ -4,8 +4,8 @@ import (
 	"github.com/aquasecurity/defsec/pkg/framework"
 	"github.com/aquasecurity/defsec/pkg/scan"
 
-	"github.com/aquasecurity/trivy-iac/internal/rules"
-	"github.com/aquasecurity/trivy-iac/pkg/types"
+	"github.com/khulnasoft/tunnel-iac/internal/rules"
+	"github.com/khulnasoft/tunnel-iac/pkg/types"
 )
 
 func Register(rule scan.Rule) types.RegisteredRule {

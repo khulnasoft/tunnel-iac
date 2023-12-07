@@ -10,7 +10,7 @@ import (
 	"github.com/liamg/jfather"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/cloudformation/cftypes"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/cloudformation/cftypes"
 )
 
 type Parameter struct {

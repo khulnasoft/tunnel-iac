@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/aquasecurity/defsec/pkg/types"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/azure"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/azure"
 	"github.com/stretchr/testify/require"
 )
 

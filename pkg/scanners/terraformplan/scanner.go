@@ -10,9 +10,9 @@ import (
 	"github.com/aquasecurity/defsec/pkg/framework"
 	"github.com/aquasecurity/defsec/pkg/scan"
 	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	terraformScanner "github.com/aquasecurity/trivy-iac/pkg/scanners/terraform"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/terraform/executor"
-	"github.com/aquasecurity/trivy-iac/pkg/scanners/terraformplan/parser"
+	terraformScanner "github.com/khulnasoft/tunnel-iac/pkg/scanners/terraform"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/terraform/executor"
+	"github.com/khulnasoft/tunnel-iac/pkg/scanners/terraformplan/parser"
 	"github.com/bmatcuk/doublestar/v4"
 )
 

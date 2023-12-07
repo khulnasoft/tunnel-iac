@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/aquasecurity/defsec/pkg/types"
-	"github.com/aquasecurity/trivy-iac/pkg/rego/schemas"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego/schemas"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/open-policy-agent/opa/util"
 )

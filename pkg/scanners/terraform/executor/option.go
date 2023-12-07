@@ -7,7 +7,7 @@ import (
 	"github.com/aquasecurity/defsec/pkg/framework"
 	"github.com/aquasecurity/defsec/pkg/scan"
 	"github.com/aquasecurity/defsec/pkg/state"
-	"github.com/aquasecurity/trivy-iac/pkg/rego"
+	"github.com/khulnasoft/tunnel-iac/pkg/rego"
 )
 
 type Option func(s *Executor)
