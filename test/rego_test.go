@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	trivyRego "github.com/khulnasoft/tunnel-iac/pkg/rego"
+	"github.com/aquasecurity/trivy-policies/rules"
+	tunnelRego "github.com/khulnasoft/tunnel-iac/pkg/rego"
 	"github.com/khulnasoft/tunnel-iac/pkg/rego/schemas"
-	"github.com/khulnasoft/tunnel-policies/rules"
 )
 
 var embeddedFilesystems = []fs.FS{rules.EmbeddedLibraryFileSystem, rules.EmbeddedPolicyFileSystem}
@@ -135,7 +135,7 @@ func Test_AllRegoRules(t *testing.T) {
 		t.Fatal(compiler.Errors)
 	}
 
-	retriever := trivyRego.NewMetadataRetriever(compiler)
+	retriever := tunnelRego.NewMetadataRetriever(compiler)
 
 	ctx := context.Background()
 

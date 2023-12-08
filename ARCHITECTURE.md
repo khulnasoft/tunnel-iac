@@ -7,7 +7,7 @@ This document aims to answer the question *Where is the code that does X?*
 The directory structure is broken down as follows:
 
 - `avd_docs/` - The source for the [AVD documentation](https://aquasecurity.github.io/avd/).
-- `cmd/` - These CLI tools are primarily used during development for end-to-end testing without needing to pull the library into trivy/tfsec etc.
+- `cmd/` - These CLI tools are primarily used during development for end-to-end testing without needing to pull the library into tunnel/tfsec etc.
 - `internal/adapters` - Adapters take input - such as a Terraform file or an AWS account - and _adapt_ it to a common format that can be used by the rules engine.
 - `pkg/detection` - Used for sniffing file types from both file name and content. This is done so that we can determine the type of file we're dealing with and then pass it to the correct parser.
 - `pkg/extrafs` - Wraps `os.DirFS` to provide a filesystem that can also resolve symlinks.

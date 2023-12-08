@@ -12,7 +12,7 @@ import (
 	"text/template"
 
 	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/khulnasoft/tunnel-policies/rules"
+	"github.com/aquasecurity/trivy-policies/rules"
 
 	_ "github.com/khulnasoft/tunnel-iac/pkg/rego"
 	registered "github.com/khulnasoft/tunnel-iac/pkg/rules"

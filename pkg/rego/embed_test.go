@@ -3,8 +3,8 @@ package rego
 import (
 	"testing"
 
+	rules2 "github.com/aquasecurity/trivy-policies/rules"
 	"github.com/khulnasoft/tunnel-iac/pkg/rules"
-	rules2 "github.com/khulnasoft/tunnel-policies/rules"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -8,7 +8,7 @@ import (
 	"github.com/aquasecurity/defsec/pkg/framework"
 	"github.com/aquasecurity/defsec/pkg/scan"
 	dftypes "github.com/aquasecurity/defsec/pkg/types"
-	"github.com/khulnasoft/tunnel-policies/rules/specs"
+	"github.com/aquasecurity/trivy-policies/rules/specs"
 
 	"github.com/khulnasoft/tunnel-iac/pkg/types"
 )
