@@ -8,7 +8,7 @@ require (
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/aquasecurity/defsec v0.93.2-0.20231121210951-9b3cc255faff
 	github.com/aquasecurity/trivy-policies v0.7.0
-	github.com/aws/smithy-go v1.14.2
+	github.com/aws/smithy-go v1.20.0
 	github.com/bmatcuk/doublestar/v4 v4.6.0
 	github.com/google/uuid v1.3.1
 	github.com/hashicorp/go-getter v1.7.2
